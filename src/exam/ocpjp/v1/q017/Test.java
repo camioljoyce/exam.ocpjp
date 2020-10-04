@@ -10,6 +10,7 @@ public class Test {
 		queue.add("Susan");
 		queue.add("Allen");
 		queue.add("David");
+		
 		System.out.println(queue);
 		System.out.println(queue.pop());
 		System.out.println(queue.remove());
