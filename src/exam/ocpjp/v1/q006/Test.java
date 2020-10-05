@@ -7,18 +7,16 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class Test {
-
+	private static final String url="";
+	private static final String user="";
+	private static final String password="";
     public static void main(String[] args) {
-        /*
+        /*  Employee table資料
             eid    ename
             111    Tom
             112    Jerry
             113    Donald
          */
-        
-        String url="";
-        String user="";
-        String password="";
         try {
             Connection conn = DriverManager.getConnection(url, user, password);
             //ResultSet.TYPE_SCROLL_INSENSITIVE 會保留原先結果

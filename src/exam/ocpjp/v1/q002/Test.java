@@ -45,8 +45,7 @@ public class Test {
         System.out.println();
         
         Map<String,List<Student>> map = stds.stream().collect(Collectors.groupingBy(Student::getCourse));
-        map.forEach((a,b)->System.out.println(a));
-
+        map.forEach((key,value)->System.out.println(key+","+value));
     }
 
 }
